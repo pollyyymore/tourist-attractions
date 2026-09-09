@@ -1,8 +1,7 @@
 from datetime import date
 
-# Данные о туристическом месте
 place_name = "Гора Эльбрус"
-altitude = 5642  # высота в метрах
+altitude = 5642
 visit_date = date(2026, 7, 20)
 is_open = True
 
