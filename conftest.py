@@ -1,4 +1,4 @@
-"""conftest.py — файл нужен, чтобы pytest заработал, тк выдавал ошибку."""
+"""Корневой conftest.py — добавляет корень проекта в sys.path для pytest."""
 import os
 import sys
 

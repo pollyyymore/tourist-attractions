@@ -2,6 +2,15 @@
   {
     "id": 1,
     "place_id": 1,
-    "date": "2026-07-20"
+    "user_id": 1,
+    "visit_date": "2026-07-20",
+    "is_cancelled": false
+  },
+  {
+    "id": 2,
+    "place_id": 3,
+    "user_id": 2,
+    "visit_date": "2026-08-05",
+    "is_cancelled": true
   }
 ]
