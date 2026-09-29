@@ -1,3 +1,4 @@
+"""conftest.py — файл нужен, чтобы pytest заработал, тк выдавал ошибку."""
 import os
 import sys
 
