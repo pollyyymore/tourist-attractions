@@ -180,9 +180,15 @@ Django-приложение для избранного:
 python manage.py runserver
 ```
 
+Проверить все ли в порядке:
+
+```text
+python manage.py check
+```
+
 Открыть `http://127.0.0.1:8000/`.
 
-Консольная версия (сохранена):
+Консольная версия:
 
 ```text
 python main.py
@@ -197,7 +203,7 @@ pytest -v
 ## Проверка качества кода
 
 ```text
-flake8 . --extend-exclude=venv
+flake8
 ```
 
 ## Зависимости
