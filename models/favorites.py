@@ -105,3 +105,13 @@ def show_favorites(favorites: List[Favorite]) -> None:
             f"{item.id:<4}{item.place.name:<30}{item.user.name:<20}"
             f"{item.visit_date:<14}{state:<10}"
         )
+
+def find_favorite_by_id(
+    favorites: List[Favorite],
+    favorite_id: int,
+) -> Optional[Favorite]:
+    """Найти запись избранного по идентификатору."""
+    for item in favorites:
+        if item.id == favorite_id:
+            return item
+    return None
